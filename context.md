@@ -12,14 +12,36 @@
 **LeetCode обучение** по плану в файле `leetcode-learning-plan.md`
 
 ## Текущий этап
-**Two Pointers (Два указателя)**
+**Binary Search (Бинарный поиск)**
+
+### Выполненные задачи:
+- ✅ HashMap полностью
+- ✅ Two Pointers полностью (11, 167, 15, 42)
+- ✅ Sliding Window полностью (3, 424, 76)
 
 ### Текущая задача:
-- 🔄 11. Container With Most Water
+- 🔄 33. Search in Rotated Sorted Array
 
 ### Следующие задачи:
-- ⭐ 15. 3Sum
-- ⭐ 42. Trapping Rain Water
+**Binary Search**
+- ⭐ 153. Find Minimum in Rotated Sorted Array
+- ⭐ 875. Koko Eating Bananas
+
+### HashMap — выполнено:
+- ✅ 1. Two Sum
+- ✅ 217. Contains Duplicate
+- ✅ 242. Valid Anagram
+- ✅ 136. Single Number
+- ✅ 349. Intersection of Two Arrays
+- ✅ 383. Ransom Note
+- ✅ 290. Word Pattern
+- ✅ 205. Isomorphic Strings
+- ✅ 49. Group Anagrams
+- ✅ 350. Intersection of Two Arrays II
+- ✅ 128. Longest Consecutive Sequence
+- ✅ 347. Top K Frequent Elements
+- ✅ 560. Subarray Sum Equals K
+- ✅ 451. Sort Characters By Frequency
 
 ### HashMap — выполнено:
 - ✅ 1. Two Sum (Brute Force + HashMap)
@@ -40,6 +62,8 @@
 ## Файлы проекта
 - `leetcode-learning-plan.md` - полный план обучения
 - `hashmap-tasks.md` - список HashMap задач
+- `pointers-patterns-tasks.md` - задачи Two Pointers, Sliding Window, Binary Search
+- `review-plan.md` - план повторения HashMap
 - `complexity-table.md` - таблица сложности алгоритмов
 - `reminders.md` - напоминалки (повторить XOR и т.д.)
 - `script.js` - решение задач

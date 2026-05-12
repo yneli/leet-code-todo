@@ -435,21 +435,21 @@ function minEatingSpeed(piles, h) {
 ## Прогресс
 
 ### Two Pointers:
-- [ ] 125. Valid Palindrome
-- [ ] 167. Two Sum II
-- [ ] 11. Container With Most Water — **ТЕКУЩАЯ** 📍
-- [ ] 15. 3Sum
-- [ ] 42. Trapping Rain Water
+- [x] 125. Valid Palindrome
+- [x] 167. Two Sum II
+- [x] 11. Container With Most Water
+- [x] 15. 3Sum
+- [x] 42. Trapping Rain Water
 
 ### Sliding Window:
-- [ ] 643. Maximum Average Subarray I
-- [ ] 3. Longest Substring Without Repeating Characters
-- [ ] 424. Longest Repeating Character Replacement
-- [ ] 76. Minimum Window Substring
+- [x] 643. Maximum Average Subarray I
+- [x] 3. Longest Substring Without Repeating Characters
+- [x] 424. Longest Repeating Character Replacement
+- [x] 76. Minimum Window Substring
 
 ### Binary Search:
-- [ ] 704. Binary Search
-- [ ] 35. Search Insert Position
-- [ ] 33. Search in Rotated Sorted Array
+- [x] 704. Binary Search
+- [x] 35. Search Insert Position
+- [ ] 33. Search in Rotated Sorted Array — **ТЕКУЩАЯ** 📍
 - [ ] 153. Find Minimum in Rotated Sorted Array
 - [ ] 875. Koko Eating Bananas

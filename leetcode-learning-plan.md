@@ -1226,7 +1226,7 @@ function maxSlidingWindow(nums, k) {
 #### Рекомендуемые задачи:
 - ✅ 643. Maximum Average Subarray I
 - ⭐ 3. Longest Substring Without Repeating Characters
-- ⭐ 424. Longest Repeating Character Replacement
+- ✅ 424. Longest Repeating Character Replacement
 - ⭐ 76. Minimum Window Substring
 - ⭐ 239. Sliding Window Maximum
 

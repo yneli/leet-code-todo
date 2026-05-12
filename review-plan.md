@@ -47,3 +47,4 @@
 - [ ] Повторить XOR: `a ^ a = 0, a ^ 0 = a` (из 136. Single Number)
 - [ ] Повторить prefix sum логику из 560 (sum - k = начало подмассива)
 - [ ] Повторить bucket sort из 347 и 451 (корзина по частоте, без сортировки)
+- [ ] Повторить Sliding Window: 3. Longest Substring Without Repeating Characters (Map + два указателя)
