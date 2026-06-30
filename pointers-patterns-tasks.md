@@ -418,6 +418,31 @@ function minEatingSpeed(piles, h) {
 
 ---
 
+### 6. 🔄 278. First Bad Version — первая плохая версия
+```javascript
+// Условие: найти первую "плохую" версию продукта
+// API: isBadVersion(version) возвращает true/false
+// Все версии после первой плохой — тоже плохие
+// Пример: n = 5, firstBad = 4 → 4
+
+function firstBadVersion(n) {
+    let left = 1, right = n;
+
+    while (left < right) {
+        const mid = Math.floor((left + right) / 2);
+        if (isBadVersion(mid)) {
+            right = mid;
+        } else {
+            left = mid + 1;
+        }
+    }
+    return left;
+}
+// Сложность: O(log n) время, O(1) память
+```
+
+---
+
 ## Паттерны — шпаргалка
 
 | Паттерн | Задачи | Ключевая идея |
@@ -426,7 +451,7 @@ function minEatingSpeed(piles, h) {
 | **Two Pointers + сортировка** | 15 | отсортировать, потом навстречу |
 | **Фиксированное окно** | 643 | окно固定的 размера k |
 | **Переменное окно** | 3, 424, 76 | расширяем/сжимаем по условию |
-| **Классический бинарный поиск** | 704, 35 | делим пополам, ищем точное значение |
+| **Классический бинарный поиск** | 704, 35, 278 | делим пополам, ищем точное значение |
 | **Бинарный поиск по ответу** | 875 | ищем минимальное X, при котором условие выполняется |
 | **Поворот массива** | 33, 153 | одна половина всегда отсортирована |
 
@@ -450,6 +475,35 @@ function minEatingSpeed(piles, h) {
 ### Binary Search:
 - [x] 704. Binary Search
 - [x] 35. Search Insert Position
-- [ ] 33. Search in Rotated Sorted Array — **ТЕКУЩАЯ** 📍
-- [ ] 153. Find Minimum in Rotated Sorted Array
-- [ ] 875. Koko Eating Bananas
+- [x] 33. Search in Rotated Sorted Array
+- [x] 153. Find Minimum in Rotated Sorted Array
+- [x] 875. Koko Eating Bananas
+- [x] 278. First Bad Version
+- [x] 367. Valid Perfect Square
+- [x] 374. Guess Number Higher or Lower
+- [x] 74. Search a 2D Matrix
+
+---
+
+## Часть 4: Дополнительные Sliding Window задачи
+
+### 1. ✅ 209. Minimum Size Subarray Sum — минимальный подмассив с суммой ≥ target
+### 2. ⭐ 438. Find All Anagrams in a String — **ТЕКУЩАЯ** 📍
+```javascript
+// Условие: найти минимальную длину подмассива, сумма которого ≥ target
+// Пример: target = 7, nums = [2,3,1,2,4,3] → 2 ([4,3])
+//         target = 4, nums = [1,4,4] → 1 ([4])
+//         target = 11, nums = [1,1,1,1,1] → 0 (невозможно)
+
+function minSubArrayLen(target, nums) {
+    
+}
+
+// Тесты
+console.log(minSubArrayLen(7, [2,3,1,2,4,3])); // 2
+console.log(minSubArrayLen(4, [1,4,4]));       // 1
+console.log(minSubArrayLen(11, [1,1,1,1,1]));  // 0
+```
+
+### 2. ⭐ 438. Find All Anagrams in a String
+### 3. ⭐ 567. Permutation in String

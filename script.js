@@ -1,27 +1,18 @@
-
-// 76. Minimum Window Substring
-// Условие: даны строки s и t, вернуть минимальную подстроку в s, содержащую все символы t
-
-function minWindow(s, t) {
-    // Твой код здесь
-}
-
-// Тестовые данные
-console.log(minWindow("ADOBECODEBANC", "ABC"));  // ожидается: "BANC"
-console.log(minWindow("a", "a"));                // ожидается: "a"
-console.log(minWindow("a", "aa"));               // ожидается: ""
-
-
-// 33. Search in Rotated Sorted Array
-// Условие: отсортированный массив был повёрнут, найти target
-// Пример: [4,5,6,7,0,1,2], target = 0 → 4
+// ============ 704. Binary Search ============
+// Условие: дан массив целых чисел nums, отсортированный по возрастанию,
+// и целое число target.
+// Если target существует в nums, верните его индекс, иначе верните -1.
+// Алгоритм должен иметь сложность O(log n).
+// Пример: nums = [-1,0,3,5,9,12], target = 9 -> 4
+//         nums = [-1,0,3,5,9,12], target = 2 -> -1
 
 function search(nums, target) {
-    // Твой код здесь
+
 }
 
-// Тестовые данные
-console.log(search([4,5,6,7,0,1,2], 0));  // ожидается: 4
-console.log(search([4,5,6,7,0,1,2], 3));  // ожидается: -1
-console.log(search([1], 0));              // ожидается: -1
-
+// Тесты
+console.log(search([-1, 0, 3, 5, 9, 12], 9));  // 4
+console.log(search([-1, 0, 3, 5, 9, 12], 2));  // -1
+console.log(search([5], 5));                    // 0
+console.log(search([5], -5));                   // -1
+console.log(search([-1, 0, 3, 5, 9, 12], -1)); // 0

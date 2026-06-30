@@ -18,14 +18,20 @@
 - ✅ HashMap полностью
 - ✅ Two Pointers полностью (11, 167, 15, 42)
 - ✅ Sliding Window полностью (3, 424, 76)
+- ✅ 153. Find Minimum in Rotated Sorted Array
+- ✅ 875. Koko Eating Bananas
+- ✅ 278. First Bad Version
+- ✅ 367. Valid Perfect Square
+- ✅ 374. Guess Number Higher or Lower
+- ✅ 74. Search a 2D Matrix
+- ✅ 209. Minimum Size Subarray Sum
 
 ### Текущая задача:
-- 🔄 33. Search in Rotated Sorted Array
+- 🔄 438. Find All Anagrams in a String
 
 ### Следующие задачи:
 **Binary Search**
-- ⭐ 153. Find Minimum in Rotated Sorted Array
-- ⭐ 875. Koko Eating Bananas
+- ⭐ (завершён блок Binary Search)
 
 ### HashMap — выполнено:
 - ✅ 1. Two Sum
@@ -73,7 +79,8 @@
 - Визуализация примеров
 - Низкоуровневое понимание (память, CPU)
 - Без лишней воды
-- **Перед каждой новой задачей: НЕ стирать старые решения, добавить заготовку (пустая функция + тестовые данные + console.log) ниже старого кода, с комментарием названия задачи**
+- **Перед каждой новой задачей: в `script.js` только одна задача. Перед следующей задачей стираем файл и добавляем новую заготовку (условие + пустая функция + тестовые данные + console.log) с комментарием названия задачи**
+- **⚠️ НЕ писать решение задачи в `script.js` — давать только заготовку. Пользователь решает сам. Подсказки только по запросу.**
 
 ## Прогресс
 Изучает алгоритмы с фокусом на:
