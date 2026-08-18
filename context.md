@@ -12,7 +12,7 @@
 **LeetCode обучение** по плану в файле `leetcode-learning-plan.md`
 
 ## Текущий этап
-**Binary Search (Бинарный поиск)**
+**Linked List (Связные списки)**
 
 ### Выполненные задачи:
 - ✅ HashMap полностью
@@ -25,13 +25,27 @@
 - ✅ 374. Guess Number Higher or Lower
 - ✅ 74. Search a 2D Matrix
 - ✅ 209. Minimum Size Subarray Sum
+- ✅ 438. Find All Anagrams in a String
+- ❌ 567. Permutation in String — пропущена
+- ❌ Stack — пропущена (20. Valid Parentheses не завершена)
+- ✅ 206. Reverse Linked List — Easy
+- ✅ 21. Merge Two Sorted Lists — Easy
+- ✅ 141. Linked List Cycle — Easy (Set + fast/slow Флойда)
+- ✅ 876. Middle of the Linked List — Easy (fast/slow)
+- ✅ 203. Remove Linked List Elements — Easy (dummy node паттерн)
 
 ### Текущая задача:
-- 🔄 438. Find All Anagrams in a String
+- [ТЕКУЩАЯ] 83. Remove Duplicates from Sorted List — Easy
 
 ### Следующие задачи:
-**Binary Search**
-- ⭐ (завершён блок Binary Search)
+**Linked List (Связные списки)**
+- ⭐ 83. Remove Duplicates from Sorted List
+- ⭐ 234. Palindrome Linked List
+- ⭐ 19. Remove Nth Node From End of List
+- ⭐ 143. Reorder List
+- ⭐ 2. Add Two Numbers
+- ⭐ 138. Copy List with Random Pointer
+- ⭐ 148. Sort List
 
 ### HashMap — выполнено:
 - ✅ 1. Two Sum

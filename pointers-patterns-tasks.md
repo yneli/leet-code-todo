@@ -488,22 +488,7 @@ function firstBadVersion(n) {
 ## Часть 4: Дополнительные Sliding Window задачи
 
 ### 1. ✅ 209. Minimum Size Subarray Sum — минимальный подмассив с суммой ≥ target
-### 2. ⭐ 438. Find All Anagrams in a String — **ТЕКУЩАЯ** 📍
-```javascript
-// Условие: найти минимальную длину подмассива, сумма которого ≥ target
-// Пример: target = 7, nums = [2,3,1,2,4,3] → 2 ([4,3])
-//         target = 4, nums = [1,4,4] → 1 ([4])
-//         target = 11, nums = [1,1,1,1,1] → 0 (невозможно)
+### 2. ✅ 438. Find All Anagrams in a String
+### 3. ❌ 567. Permutation in String — пропущена
 
-function minSubArrayLen(target, nums) {
-    
-}
-
-// Тесты
-console.log(minSubArrayLen(7, [2,3,1,2,4,3])); // 2
-console.log(minSubArrayLen(4, [1,4,4]));       // 1
-console.log(minSubArrayLen(11, [1,1,1,1,1]));  // 0
-```
-
-### 2. ⭐ 438. Find All Anagrams in a String
-### 3. ⭐ 567. Permutation in String
+**Блок Sliding Window / HashMap завершён.**

@@ -1,18 +1,54 @@
-// ============ 704. Binary Search ============
-// Условие: дан массив целых чисел nums, отсортированный по возрастанию,
-// и целое число target.
-// Если target существует в nums, верните его индекс, иначе верните -1.
-// Алгоритм должен иметь сложность O(log n).
-// Пример: nums = [-1,0,3,5,9,12], target = 9 -> 4
-//         nums = [-1,0,3,5,9,12], target = 2 -> -1
+// ============ 203. Remove Linked List Elements ============
+// Условие: дан head связного списка и число val.
+// Удалить ВСЕ узлы со значением val и вернуть новый head.
+// Пример: head = 1 -> 2 -> 6 -> 3 -> 4 -> 5 -> 6, val = 6
+//         результат: 1 -> 2 -> 3 -> 4 -> 5
+//         head = 7 -> 7 -> 7 -> 7, val = 7  =>  [] (пустой список)
 
-function search(nums, target) {
+function ListNode(val, next) {
+    this.val = (val === undefined ? 0 : val);
+    this.next = (next === undefined ? null : next);
+}
 
+function removeElements(head, val) {
+    let dummy = new ListNode(0, head)
+    let prevEl = dummy
+
+    while (prevEl.next !== null) {
+
+        if (prevEl.next.val === val) {
+            prevEl.next = prevEl.next.next
+        } else {
+            prevEl = prevEl.next
+        }
+    }
+
+    return dummy.next
+}
+
+// ===== Хелперы =====
+function createList(arr) {
+    if (arr.length === 0) return null;
+    const dummy = new ListNode();
+    let current = dummy;
+    for (const v of arr) {
+        current.next = new ListNode(v);
+        current = current.next;
+    }
+    return dummy.next;
+}
+
+function listToArray(head) {
+    const result = [];
+    while (head) {
+        result.push(head.val);
+        head = head.next;
+    }
+    return result;
 }
 
 // Тесты
-console.log(search([-1, 0, 3, 5, 9, 12], 9));  // 4
-console.log(search([-1, 0, 3, 5, 9, 12], 2));  // -1
-console.log(search([5], 5));                    // 0
-console.log(search([5], -5));                   // -1
-console.log(search([-1, 0, 3, 5, 9, 12], -1)); // 0
+console.log(listToArray(removeElements(createList([1, 2, 6, 3, 4, 5, 6]), 6))); // [1, 2, 3, 4, 5]
+console.log(listToArray(removeElements(createList([7, 7, 7, 7]), 7)));           // []
+console.log(listToArray(removeElements(createList([]), 1)));                     // []
+console.log(listToArray(removeElements(createList([1, 2, 2, 1]), 2)));           // [1, 1]
